@@ -1,0 +1,158 @@
+body {
+  font-family: 'Garamond', sans-serif;
+  
+}
+
+/*=======NAV=============*/
+
+/*stack the menu when screen is 700px wide or less*/
+@media screen and (max-width: 800px) {
+  #topNav>li{
+    float: none;
+    width: 100%;
+  }
+}
+
+#myNav li a {
+  color: #000000!important;
+}
+
+nav a:hover {
+  text-decoration: none;
+  font-weight: bolder;
+}
+nav a:visited {
+  color: goldenrod;
+  
+}
+
+ion-icon {/* navigation home icon */
+  height: 25px;
+  width: 40px;
+  color: #000000!important;
+  background-color: #caa23d!important;
+}
+
+/*=======HOME PAGE=======*/
+#mainBody header {
+  padding: 50px 50px 0 50px;
+}
+
+#jumbotron {
+  background-color: #000000;
+  color: #caa23d;
+  margin: auto 0;
+  margin-top: 50px;
+}
+
+#newLocation { /*Jumbotron h1*/
+  text-align: center;
+  font-family: 'Tienne', sans-serif;
+}
+
+p>span { /*p text in jumbtron*/
+  font-size: 1.2em;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.btn-primary {
+  border-color: #caa23d;
+  background-color: #caa23d;
+  color: #000000;
+}
+
+#myCarousel {
+  margin-top: 50px;
+  margin-bottom: -60px;
+  background-color: #000000;
+  color: #caa23d;
+}
+
+.carousel-item>h1 {
+  padding: 50px 0 50px 0;
+}
+
+ #mainSection{
+  margin: 0 auto;
+  color: #caa23d;
+  background-color: #000000;
+}
+
+
+#chelasBar img {
+  margin-top: 50px;
+}
+
+article p {
+  width: 400px;
+  text-align: justify;
+  display: inline-block;
+}
+
+
+footer{
+  text-align: center;
+}
+/*=======MEDIA QUERIES=====*/
+@media screen and (max-width: 800px) {
+  #newLocation{
+    font-size: 2em;
+  }
+}
+
+/*=======MENU PAGE=======*/
+#menuBody {
+  background-color: #2B2D2F;
+  color: #caa23d;
+}
+
+#menuBody header {
+  padding: 50px 50px 0 50px;
+}
+
+#menuMainSection {
+  text-align: center;
+}
+
+#menuTopRowItems p {
+  display: inline-block;
+  padding-right: 25px;
+}
+
+#menuTopRowItemsSausage {
+  vertical-align: top;
+}
+
+#menuBottomRowItems p {
+  display: inline-block;
+  padding-right: 25px;
+  vertical-align: top;
+}
+
+p strong {
+  font-size: 1.5em;
+}
+
+/*=======CONTACT PAGE=======*/
+
+.centered   {
+  width: 700px;
+  margin: auto;
+}
+
+#contactBody header {
+  padding: 50px 50px 0 50px;
+}
+
+#contactInfoLabel {
+  vertical-align: top;
+}
+
+label {
+  font-weight: bold;
+}
+
+.form-group {
+  width: 100%;  
+}
